@@ -28,12 +28,6 @@
         - "react-router": &nbsp;`npm i react-router`
         - "react-router-dom": &nbsp;`npm i react-router-dom`
     
-- Credenziali Account AWS
-
-|User name|Password|
-|--|--|
-|freshmod|mammaliturchi|
-  
 
 ## Operazioni preliminari
 
