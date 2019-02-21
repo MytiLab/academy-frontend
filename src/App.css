@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #74C5DA;
+  padding:4px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.App-title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.fixed{
+  position: fixed;
+}

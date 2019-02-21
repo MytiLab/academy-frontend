@@ -1,0 +1,53 @@
+
+.mainpanel{
+    margin-left:20%; 
+    padding-top:5px;
+    padding-left: 10px;
+    margin-right: 1%;
+}
+
+.title{
+    font-weight: bolder;
+    color:#FFFFFF;
+    font-size: 20px;
+    padding-left: 7px;
+
+    display: inline;
+}
+
+.nomeunita{
+    background-color:#4A4A4A;
+    text-align: center;
+    margin-bottom: 15px;
+    height:30px;
+    width:100%;
+}
+
+.title-icon{
+    padding-bottom:7px;
+}
+
+.dropdown {
+    background-color: #74C5DA;
+    width:100%;
+    border-color: #4A4A4A;
+    font-weight: bold;
+}
+.dropdown:hover{
+    background-color: #74C5DA;
+    width:100%;
+    border-color: #4A4A4A;
+    font-weight: bold;
+}
+.dropdown-container{
+    margin:3px;
+}
+
+
+
+
+
+.dropdown-element{
+    background-color: #FFFFFF;
+    width:100%;
+}

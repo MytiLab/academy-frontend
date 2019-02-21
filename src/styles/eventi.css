@@ -1,0 +1,30 @@
+.important-event{
+    background-color:#d0021b !important;
+    border-radius: 6px !important;
+}
+
+.closed-event{
+    background-color:#20c997 !important;
+    border-radius: 6px !important;
+}
+
+.opened-event{
+    background-color:#17a2b8 !important;
+    border-radius: 6px !important;
+}
+
+
+.dropdown-eventi {
+    background-color: #4A4A4A;
+    border-color: #4A4A4A;
+    font-weight: bold;
+}
+.dropdown-eventi:hover{
+    background-color: #4A4A4A;
+    border-color: #4A4A4A;
+    font-weight: bold;
+}
+.dropdown-eventi-container{
+    margin:3px;
+    background: white !important;
+}

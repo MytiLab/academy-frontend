@@ -1,0 +1,152 @@
+.list{
+    padding:0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.menu{
+    padding-top:5px;
+    width: 20%;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+
+
+.item{
+    width: 100%;
+    text-align: left;
+    margin-top:5px;
+}
+
+.link{
+    color:#9b9b9b;
+    font-weight: bold;
+    padding-left:20px;
+    padding-right:10px;
+    display:inline;
+    text-decoration: none;
+}
+.link:hover{
+    color:#9b9b9b;
+}
+
+  .icon-red { 
+    color: #d0021b;
+    margin-left: 3px;
+}
+  .icon-green { 
+      color: #a6d379;
+      margin-left: 3px;
+     }
+  .icon-orange {
+      color: rgb(230, 92, 0);
+      margin-left: 3px;
+    }
+
+
+.menu-title{
+    width: 100%;
+    padding-left: 30px;
+    background-color:#4A4A4A;
+
+}
+
+.units-header{
+    text-align: center;
+    font-size: 14px;
+    color:#FFFFFF;
+    font-weight: bolder;
+}
+
+.unita{   
+    width: 100%; 
+    background-color: #f1f1f1;
+    border-style:solid;
+    border-width:1px; 
+    border-color:#FFFFFF;
+    height:50px;
+    padding-top:10px;
+    padding-bottom:10px; 
+    margin-left: 2px;
+}
+
+
+
+.half{
+    display:inline-block;
+    width:50%;
+}
+
+.unita-half{
+    display:inline-block;
+    width:50%;
+    background-color: #f1f1f1;
+    border-style:solid;
+    border-width:1px; 
+    border-color:#FFFFFF;
+    height:35px;
+    padding-top:5px;
+    word-wrap:break-word;
+}
+@media screen and (max-width: 1600px) {
+    .half, .unita-half, .unita ,#detail {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+}
+@media screen and (max-width: 1000px){
+    .menu-title{
+        padding: 0px;
+    }
+}
+
+.freshmod-icon-green{
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background:#a6d379;
+    padding:2px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: #FFFFFF; 
+}
+.freshmod-icon-red{
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color: #d0021b;
+    padding:2px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: #FFFFFF; 
+}
+
+.temperatureLow{
+    color:blue;
+    padding-left: 2px;
+}
+
+.temperatureHigh{
+    color:#d0021b;
+    padding-left: 2px;
+}
+
+
+.temp{
+    color:#9b9b9b;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.event-type{
+    padding-left:5px;
+    color:#9b9b9b;
+    font-weight: bold;
+    font-size:12px;
+    text-decoration: none;
+}
+
