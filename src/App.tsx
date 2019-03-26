@@ -43,7 +43,7 @@ class App extends React.Component {
 
   public render() {
     if(this.state.mounted){
-      var logo=require('./logo.png');
+      var logo='/logo.png';
       return(
        <div className="position:fixed;">
        

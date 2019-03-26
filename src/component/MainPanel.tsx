@@ -81,7 +81,7 @@ export class MainPanel extends React.Component<IMainPanelProps>{
     }
   
     render() {
-        var icon=require('../icon.png');
+        var icon='/icon.png';
         this.dropDownDescr="Seleziona viaggio";
         
         let viaggi:JSX.Element[]=[];

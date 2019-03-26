@@ -55,7 +55,7 @@ export class ListElement extends React.Component< IListElementProps>{
                  icona=faExclamationTriangle;
             default:break;
         }
-        var freshmodIcon=require('../icon.png');
+        var freshmodIcon="/icon.png";
         // var freshmodIconStyle:string="";
         // if(this.props.unit.important==0){
         //     freshmodIconStyle="freshmod-icon-green";

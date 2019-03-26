@@ -2,9 +2,6 @@ import * as L from 'leaflet';
 import * as React from 'react';
 import '../styles/map.css';
 import {MyPosition} from 'src/types/Position';
-import green from 'src/map-marker-green.png';
-import red from 'src/map-marker-red.png';
-import yellow from 'src/map-marker-yellow.png';
 
 interface IMap {
     positions: MyPosition[];
@@ -53,21 +50,21 @@ export class MapComponent extends React.Component<IMap> {
 
             let state = (position.state != null && position.state!="" ) ? JSON.parse(position.state) : {};
             if(state=={}){
-                icon = green;
+                icon = "/map-marker-green.png";
                 color = "#2ac406";
             }
             switch (state.color) {
                 default:
                 case 'red':
-                    icon = red;
+                    icon = "/map-marker-red.png";
                     color = "#ba1212";
                     break;
                 case 'yellow':
-                    icon = yellow;
+                    icon = "/map-marker-yellow.png";
                     color = "#ffbc2b";
                     break;
                 case 'green':
-                    icon = green;
+                    icon = "/map-marker-green.png";
                     color = "#2ac406";
                     break;
             }
